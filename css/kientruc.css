@@ -1,0 +1,94 @@
+.container {
+    margin-bottom: 20px;
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: #000000;
+}
+h2 {
+    font-weight: bold;
+}
+h3 {
+    font-style: italic;
+}
+.gioithieu {
+    order: 0;
+    flex: 7;
+}
+.imgscroll {
+    order: 1;
+    flex: 2;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.thumbinner {
+    border: 1px solid #c8ccd1;
+    background-color: #86d7e6;
+    font-size: 94%;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.thumbinner img {
+    width: 100%;
+    transition: all 1s;
+}
+.thumbinner:hover img {
+    -webkit-transform: scale(1.2); transform: scale(1.2);
+}
+.thumbcaption {
+    border: 0;
+    font-size: 94%;
+    line-height: 1.4em;
+    padding: 5px;
+    text-align: center;
+}
+.spacer {
+    clear: both;
+}
+.footer{
+	background-color:#39c8e2;
+}
+.owner {
+	display:inline;
+	float:left;
+	width: 660px;
+	color:#000000;
+	padding:20px;
+}
+
+.developer {
+	display:inline;
+	float:left;
+	color:#000000;
+	width: 400px;
+	padding:20px;
+	text-align: left;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+.anhgioithieu {
+    order: 0;
+    flex: 3;
+}
+.map {
+    order: 1;
+    flex: 1;
+}
+.ifrm {
+    height: 350px;
+    width: 350px;
+}
+.intro_img {
+    height: 350px;
+    width: 750px;
+}
+.abc {
+    height: 686px;
+}

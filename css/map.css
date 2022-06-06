@@ -1,0 +1,68 @@
+.container_map {
+    display: flex;
+    padding-top: 25px;
+}
+.circle{
+    background: red;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle1{
+    background: orange;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle2{
+    background: yellow;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle3{
+    background: green;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle4{
+    background: blue;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle5{
+    background: #456BD9;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.circle6{
+    background: violet;
+  clip-path: circle(50%);
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.container_map li {
+    list-style: none;
+    display: flex;
+}
+.content {
+    padding-left: 300px;
+}
